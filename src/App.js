@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
+import './App.css';
 
-const GardeningApp = () => {
+function App() {
   const [activeSeason, setActiveSeason] = useState('spring');
   const [activeSection, setActiveSection] = useState('overview');
 
@@ -336,73 +337,6 @@ const GardeningApp = () => {
     <div className="font-handwriting min-h-screen" style={{
       background: `linear-gradient(135deg, ${currentColor.secondary} 0%, #f0f9ff 100%)`,
     }}>
-      <style jsx global>{`
-        @import url('https://fonts.googleapis.com/css2?family=Yomogi&family=Zen+Kurenaido&family=Kaisei+Decol&display=swap');
-        
-        .font-handwriting {
-          font-family: 'Yomogi', 'Zen Kurenaido', 'Kaisei Decol', cursive, sans-serif;
-        }
-        
-        .handdrawn-box {
-          border: 2px solid #000;
-          border-radius: 12px;
-          position: relative;
-          border-style: solid;
-          border-width: 2px;
-        }
-        
-        .handdrawn-circle {
-          width: 24px;
-          height: 24px;
-          border-radius: 50%;
-          color: white;
-          font-weight: bold;
-          font-size: 0.9rem;
-        }
-        
-        .handdrawn-arrow {
-          width: 20px;
-          height: 20px;
-          position: relative;
-          transform: rotate(45deg);
-          border-right: 3px solid;
-          border-bottom: 3px solid;
-        }
-        
-        .handdrawn-step {
-          border: 2px solid #000;
-          border-radius: 12px;
-          position: relative;
-          border-style: solid;
-          border-width: 2px;
-        }
-        
-        .season-btn {
-          border: 2px solid;
-          border-radius: 12px;
-          transition: all 0.3s;
-          font-weight: bold;
-        }
-        
-        .season-btn:hover {
-          transform: scale(1.05);
-        }
-        
-        .section-btn {
-          border: 2px solid;
-          border-radius: 8px;
-          transition: all 0.3s;
-        }
-        
-        .section-btn:hover {
-          transform: translateY(-2px);
-        }
-        
-        .active-btn {
-          box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-        }
-      `}</style>
-      
       {/* ヘッダー */}
       <header className="p-4 border-b-2 border-gray-200" style={{borderColor: currentColor.accent}}>
         <div className="container mx-auto">
@@ -574,6 +508,6 @@ const GardeningApp = () => {
       </footer>
     </div>
   );
-};
+}
 
-export default GardeningApp;
+export default App;
