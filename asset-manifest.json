@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/garden-app-for-kids/static/css/main.2fef62cc.css",
-    "main.js": "/garden-app-for-kids/static/js/main.a33cb637.js",
+    "main.css": "/garden-app-for-kids/static/css/main.98bb301d.css",
+    "main.js": "/garden-app-for-kids/static/js/main.543d3215.js",
     "static/js/453.7947d68d.chunk.js": "/garden-app-for-kids/static/js/453.7947d68d.chunk.js",
     "index.html": "/garden-app-for-kids/index.html",
-    "main.2fef62cc.css.map": "/garden-app-for-kids/static/css/main.2fef62cc.css.map",
-    "main.a33cb637.js.map": "/garden-app-for-kids/static/js/main.a33cb637.js.map",
+    "main.98bb301d.css.map": "/garden-app-for-kids/static/css/main.98bb301d.css.map",
+    "main.543d3215.js.map": "/garden-app-for-kids/static/js/main.543d3215.js.map",
     "453.7947d68d.chunk.js.map": "/garden-app-for-kids/static/js/453.7947d68d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2fef62cc.css",
-    "static/js/main.a33cb637.js"
+    "static/css/main.98bb301d.css",
+    "static/js/main.543d3215.js"
   ]
 }
