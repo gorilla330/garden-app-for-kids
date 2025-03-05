@@ -7,7 +7,7 @@ module.exports = {
       },
       stage: 3
     }),
-    require('@tailwindcss/postcss7-compat'),
+    require('tailwindcss'),
     require('autoprefixer')
   ]
 }
