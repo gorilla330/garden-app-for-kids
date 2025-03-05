@@ -1,35 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Yomogi&family=Zen+Kurenaido&family=Kaisei+Decol&display=swap');
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-.font-handwriting {
-  font-family: 'Yomogi', 'Zen Kurenaido', 'Kaisei Decol', cursive, sans-serif;
-}
-
-.handdrawn-box {
-  border: 2px solid #000;
-  border-radius: 12px;
-  position: relative;
-  border-style: solid;
-  border-width: 2px;
-}
-
-.handdrawn-circle {
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  color: white;
-  font-weight: bold;
-  font-size: 0.9rem;
-}
-
-.handdrawn-arrow {
-  width: 20px;
-  height: 20px;
-  position: relative;
-  transform: rotate(45deg);
-  border-right: 3px solid;
-  border-bottom: 3px solid;
+/* スタイルはpublic/index.htmlでCDN経由で適用しています */
+body {
+  margin: 0;
+  font-family: 'Yomogi', 'Zen Kurenaido', 'Kaisei Decol', -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
